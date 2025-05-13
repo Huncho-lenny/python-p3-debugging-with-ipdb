@@ -2,6 +2,11 @@
 
 import ipdb
 
+# This is a simple function that adds 2 to the input number
+
 def plus_two(num):
-    num + 2
+    num = num + 2
     return num
+
+if __name__ == "__main__":
+    plus_two(3)
